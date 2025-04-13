@@ -1,0 +1,120 @@
+:root {
+    --yellow: #F6FF73;
+    --orange: #FFAE00;
+    --dark-red: #BC0000;
+}
+
+.jumbotron {
+
+    background-color: var(--orange);
+    border: 3px solid rgb(255, 150, 0);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.jumbotron-1 {
+    font-style: bold;
+    font-size: 35px;
+}
+
+.jumbotron-2 {
+    font-size: 24px;
+}
+
+.jumbotron-image {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+
+    transition-duration: 500ms;
+}
+
+.jumbotron-image:hover {
+    width: 200px;
+    height: 200px;
+}
+
+.navigation {
+    background-color: var(--dark-red);
+    border: 3px solid rgb(255, 0, 0);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    height: 60px;
+}
+
+.navigation-text {
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    transition-duration: 500ms;
+    cursor: pointer;
+}
+
+.navigation-text:hover {
+    font-weight: 1000;
+    font-size: 18px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+aside {
+    display: flex;
+    background-color: var(--orange);
+    border: 3px solid rgb(255, 242, 0);
+    width: 15%;
+}
+
+main {
+    background-color: var(--yellow);
+    border: 3px solid rgb(255, 221, 0);
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+footer {
+    background-color: var(--dark-red);
+    border: 3px solid rgb(255, 85, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.div-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer-text {
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    align-self: center;
+    font-size: 18px;
+    font-style: medium;
+}
+.footer-image {
+    border-radius: 100%;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+}
+
+.div-2 {
+    display: flex;
+    font-style: bold;
+    font-size: 21px;
+    align-items: center;
+}
