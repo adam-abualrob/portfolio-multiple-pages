@@ -44,6 +44,7 @@
     font-weight: 600;
     color: rgb(255, 255, 255);
     height: 60px;
+    color: aqua;
 }
 
 .navigation-text {
@@ -52,6 +53,8 @@
     text-align: center;
     transition-duration: 500ms;
     cursor: pointer;
+    color: white;
+    text-decoration:none;
 }
 
 .navigation-text:hover {
